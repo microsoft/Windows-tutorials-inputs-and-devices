@@ -130,7 +130,7 @@ namespace GettingStarted_RadialController
         // Add or remove the custom tool.
         private void AddRemoveItem(object sender, RoutedEventArgs args)
         {
-            // Begin "Step 5: Dynamic menu configuration"
+            // Begin "Step 5: Configure menu at runtime"
             //if (AddRemoveToggleButton?.IsChecked == true)
             //{
             //    AddRemoveToggleButton.Content = "Remove item";
@@ -150,13 +150,13 @@ namespace GettingStarted_RadialController
             //        radialController.Menu.TrySelectPreviouslySelectedMenuItem();
             //    }
             //}
-            // End "Step 5: Dynamic menu configuration"
+            // End "Step 5: Configure menu at runtime"
         }
 
         // Reset the RadialController to initial state.
         private void ResetController(object sender, RoutedEventArgs arg)
         {
-            // Begin "Step 5: Dynamic menu configuration"
+            // Begin "Step 5: Configure menu at runtime"
             //if (!radialController.Menu.Items.Contains(radialControllerMenuItem))
             //{
             //    radialController.Menu.Items.Add(radialControllerMenuItem);
@@ -165,7 +165,7 @@ namespace GettingStarted_RadialController
             //AddRemoveToggleButton.IsChecked = true;
             //radialControllerConfig.SetDefaultMenuItems(
             //    new RadialControllerSystemMenuItemKind[] { });
-            // End "Step 5: Dynamic menu configuration"
+            // End "Step 5: Configure menu at runtime"
         }
     }
 }
