@@ -47,7 +47,7 @@ THE SOFTWARE.
                        TargetInkCanvas="{x:Bind inkCanvas}">
             </InkToolbar>-->
             <!-- End "Step 4: Add an ink toolbar" -->
-            <!-- Begin "Step 7: Saving and loading ink" -->
+            <!-- Begin "Step 7: Save and load ink" -->
             <!--<Button x:Name="buttonSave" 
                     Content="Save" 
                     Click="buttonSave_ClickAsync"
@@ -58,19 +58,19 @@ THE SOFTWARE.
                     Click="buttonLoad_ClickAsync"
                     Width="100"
                     Margin="5,0,0,0"/>-->
-            <!-- End "Step 7: Saving and loading ink" -->
+            <!-- End "Step 7: Save and load ink" -->
         </StackPanel>
 
         <Grid x:Name="drawingCanvas" Grid.Row="2">
 
             <!-- The canvas where we draw the replacement shapes. -->
-            <!-- Begin Step 6: Shape recognition -->
+            <!-- Begin Step 6: Recognize shapes -->
             <!--<Canvas x:Name="canvas" />-->
-            <!-- End Step 6: Shape recognition -->
+            <!-- End Step 6: Recognize shapes -->
             
-            <!-- Begin "Step 2: Basic inking with InkCanvas" -->
+            <!-- Begin "Step 2: Use InkCanvas to support basic inking" -->
             <!--<InkCanvas x:Name="inkCanvas" />-->
-            <!-- End "Step 2: Basic inking with InkCanvas" -->
+            <!-- End "Step 2: Use InkCanvas to support basic inking" -->
 
         </Grid>
 
@@ -83,7 +83,7 @@ THE SOFTWARE.
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <!-- Begin "Step 5: Handwriting recognition" -->
+            <!-- Begin "Step 5: Support handwriting recognition" -->
             <!--<Button x:Name="recognizeText" 
                     Content="Recognize text"  
                     Grid.Row="0" Grid.Column="0"
@@ -94,12 +94,12 @@ THE SOFTWARE.
                        VerticalAlignment="Center" 
                        Grid.Row="0" Grid.Column="1"
                        Margin="50,0,0,0" />-->
-            <!-- End "Step 5: Handwriting recognition" -->
-            <!-- Begin "Step 6: Shape recognition" -->
+            <!-- End "Step 5: Support handwriting recognition" -->
+            <!-- Begin "Step 6: Recognize shapes" -->
             <!--<Button Grid.Row="1" x:Name="recognizeShape" Click="recognizeShape_ClickAsync"
                     Content="Recognize shape" 
                     Margin="10,10,10,10" />-->
-            <!-- End "Step 6: Shape recognition" -->
+            <!-- End "Step 6: Recognize shapes" -->
         </Grid>
         
         

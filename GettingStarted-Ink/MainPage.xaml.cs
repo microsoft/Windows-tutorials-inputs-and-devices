@@ -28,13 +28,13 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 
-// Begin "Step 2: Basic inking with InkCanvas"
+// Begin "Step 2: Use InkCanvas to support basic inking"
 ////using directives for inking functionality.
 //using Windows.UI.Input.Inking;
 //using Windows.UI.Input.Inking.Analysis;
 //using Windows.UI.Xaml.Shapes;
 //using Windows.Storage.Streams;
-// End "Step 2: Basic inking with InkCanvas"
+// End "Step 2: Use InkCanvas to support basic inking"
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -45,33 +45,33 @@ namespace GettingStarted_Ink
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        // Begin "Step 5: Handwriting recognition"
+        // Begin "Step 5: Support handwriting recognition"
         //InkAnalyzer analyzerText = new InkAnalyzer();
         //IReadOnlyList<InkStroke> strokesText = null;
         //InkAnalysisResult resultText = null;
         //IReadOnlyList<IInkAnalysisNode> words = null;
-        // End "Step 5: Handwriting recognition"
+        // End "Step 5: Support handwriting recognition"
 
-        // Begin "Step 6: Shape recognition"
+        // Begin "Step 6: Recognize shapes"
         //InkAnalyzer analyzerShape = new InkAnalyzer();
         //IReadOnlyList<InkStroke> strokesShape = null;
         //InkAnalysisResult resultShape = null;
-        // End "Step 6: Shape recognition"
+        // End "Step 6: Recognize shapes"
 
         public MainPage()
         {
             this.InitializeComponent();
 
-            // Begin "Step 3: Inking with touch and mouse"
+            // Begin "Step 3: Support inking with touch and mouse"
             //inkCanvas.InkPresenter.InputDeviceTypes =
             //    Windows.UI.Core.CoreInputDeviceTypes.Mouse |
             //    Windows.UI.Core.CoreInputDeviceTypes.Touch |
             //    Windows.UI.Core.CoreInputDeviceTypes.Pen;
-            // End "Step 3: Inking with touch and mouse"
+            // End "Step 3: Support inking with touch and mouse"
 
         }
 
-        // Begin "Step 5: Handwriting recognition"
+        // Begin "Step 5: Support handwriting recognition"
         //private async void recognizeText_ClickAsync(object sender, RoutedEventArgs e)
         //{
         //    strokesText = inkCanvas.InkPresenter.StrokeContainer.GetStrokes();
@@ -108,9 +108,9 @@ namespace GettingStarted_Ink
         //        analyzerText.ClearDataForAllStrokes();
         //    }
         //}
-        // End "Step 5: Handwriting recognition"
+        // End "Step 5: Support handwriting recognition"
 
-        // Begin "Step 6: Shape recognition"
+        // Begin "Step 6: Recognize shapes"
         //private async void recognizeShape_ClickAsync(object sender, RoutedEventArgs e)
         //{
         //    strokesShape = inkCanvas.InkPresenter.StrokeContainer.GetStrokes();
@@ -201,9 +201,9 @@ namespace GettingStarted_Ink
         //    polygon.StrokeThickness = 2;
         //    canvas.Children.Add(polygon);
         //}
-        // End "Step 6: Shape recognition"
+        // End "Step 6: Recognize shapes"
 
-        // Begin "Step 7: Saving and loading ink"
+        // Begin "Step 7: Save and load ink"
         //private async void buttonSave_ClickAsync(object sender, RoutedEventArgs e)
         //{
         //    // Get all strokes on the InkCanvas.
@@ -290,6 +290,6 @@ namespace GettingStarted_Ink
         //        // Operation cancelled.
         //    }
         //}
-        // End "Step 7: Saving and loading ink"
+        // End "Step 7: Save and load ink"
     }
 }
