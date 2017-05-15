@@ -81,11 +81,11 @@ namespace GettingStarted_RadialController
                     // configuring the new page by passing required information as a navigation
                     // parameter
                     // Begin "Step 7: Surface Studio and on-screen interactions"
-                    // Begin "Step 6: Haptics customization"
+                    // Begin "Step 6: Customize the device haptics"
                     rootFrame.Navigate(typeof(MainPage_Basic), e.Arguments);
                     //rootFrame.Navigate(typeof(MainPage_Haptics), e.Arguments);
                     //rootFrame.Navigate(typeof(MainPage), e.Arguments);
-                    // End "Step 6: Haptics customization"
+                    // End "Step 6: Customize the device haptics"
                     // End "Step 7: Surface Studio and on-screen interactions"
 
                     // Haptics

@@ -88,7 +88,7 @@ THE SOFTWARE.
                           Margin="0,0,0,20"
                           HorizontalAlignment="center"/>
 
-            <!-- Begin "Step 6: Haptics customization" -->
+            <!-- Begin "Step 6: Customize the device haptics" -->
             <!--<StackPanel x:Name="HapticsStack" 
                         Orientation="Vertical" 
                         HorizontalAlignment="Center" 
@@ -151,7 +151,7 @@ THE SOFTWARE.
                           IsThreeState="True" 
                           IsChecked="{x:Null}" />
             </StackPanel>-->
-            <!-- End "Step 6: Haptics customization" -->
+            <!-- End "Step 6: Customize the device haptics" -->
 
         </StackPanel>
     </Grid>

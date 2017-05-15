@@ -30,9 +30,9 @@ using System;
 // Using directives for RadialController functionality.
 using Windows.UI.Input;
 
-// Begin "Step 6: Haptics customization"
+// Begin "Step 6: Customize the device haptics"
 //using Windows.Devices.Haptics;
-// End "Step 6: Haptics customization"
+// End "Step 6: Customize the device haptics"
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -102,13 +102,13 @@ namespace GettingStarted_RadialController
             radialController.RotationChanged += (rotationsender, rotationargs) =>
             { RadialController_RotationChanged(rotationsender, rotationargs); };
 
-            // Begin "Step 6: Haptics customization"
+            // Begin "Step 6: Customize the device haptics"
             //radialController.ControlAcquired += (hapticssender, hapticsargs) =>
             //{ RadialController_ControlAcquired(hapticssender, hapticsargs); };
-            // End "Step 6: Haptics customization"
+            // End "Step 6: Customize the device haptics"
         }
 
-        // Begin "Step 6: Haptics customization"
+        // Begin "Step 6: Customize the device haptics"
         //private void RadialController_ControlAcquired(
         //    RadialController rc_sender,
         //    RadialControllerControlAcquiredEventArgs args)
@@ -173,7 +173,7 @@ namespace GettingStarted_RadialController
         //        CBReplayPauseInterval.IsChecked = true;
         //    }
         //}
-        // End "Step 6: Haptics customization"
+        // End "Step 6: Customize the device haptics"
 
         // Connect wheel device rotation to slider control.
         private void RadialController_RotationChanged(
@@ -192,7 +192,7 @@ namespace GettingStarted_RadialController
                 RotationSlider.Value += args.RotationDeltaInDegrees;
             }
 
-            // Begin "Step 6: Haptics customization"
+            // Begin "Step 6: Customize the device haptics"
             //if (ClickToggle.IsOn &&
             //    (RotationSlider.Value > RotationSlider.Minimum) &&
             //    (RotationSlider.Value < RotationSlider.Maximum))
@@ -205,7 +205,7 @@ namespace GettingStarted_RadialController
             //        args.SimpleHapticsController.SendHapticFeedback(waveform);
             //    }
             //}
-            // End "Step 6: Haptics customization"
+            // End "Step 6: Customize the device haptics"
         }
 
         private void RadialController_ButtonClicked(
@@ -213,7 +213,7 @@ namespace GettingStarted_RadialController
         {
             ClickToggle.IsOn = !ClickToggle.IsOn;
 
-            // Begin "Step 6: Haptics customization"
+            // Begin "Step 6: Customize the device haptics"
             //if (RotationSlider?.Value > 0)
             //{
             //    SimpleHapticsControllerFeedback waveform =
@@ -228,10 +228,10 @@ namespace GettingStarted_RadialController
             //            TimeSpan.Parse("1"));
             //    }
             //}
-            // End "Step 6: Haptics customization"
+            // End "Step 6: Customize the device haptics"
         }
 
-        // Begin "Step 6: Haptics customization"
+        // Begin "Step 6: Customize the device haptics"
         // Get the requested waveform.
         //private SimpleHapticsControllerFeedback FindWaveform(
         //    SimpleHapticsController hapticsController,
@@ -246,7 +246,7 @@ namespace GettingStarted_RadialController
         //    }
         //    return null;
         //}
-        // End "Step 6: Haptics customization"
+        // End "Step 6: Customize the device haptics"
 
         // Add or remove the custom tool.
         private void AddRemoveItem(object sender, RoutedEventArgs args)
