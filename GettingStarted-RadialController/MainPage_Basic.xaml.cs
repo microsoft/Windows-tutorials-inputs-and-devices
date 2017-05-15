@@ -25,10 +25,10 @@
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-// Begin "Step 4: Basic RadialController menu customization"
+// Begin "Step 4: Customize the basic RadialController menu"
 //// Using directives for RadialController functionality.
 //using Windows.UI.Input;
-// End "Step 4: Basic RadialController menu customization"
+// End "Step 4: Customize the basic RadialController menu"
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -43,14 +43,14 @@ namespace GettingStarted_RadialController
         {
             this.InitializeComponent();
 
-            // Begin "Step 4: Basic RadialController menu customization"
+            // Begin "Step 4: Customize the basic RadialController menu"
             //InitializeSampleButton.Click += (sender, args) =>
             //{ InitializeSample(sender, args); };
-            // End "Step 4: Basic RadialController menu customization"
+            // End "Step 4: Customize the basic RadialController menu"
 
         }
 
-        // Begin "Step 4: Basic RadialController menu customization"
+        // Begin "Step 4: Customize the basic RadialController menu"
         //private RadialController radialController;
         //private RadialControllerConfiguration radialControllerConfig;
         //private RadialControllerMenuItem radialControllerMenuItem;
@@ -125,7 +125,7 @@ namespace GettingStarted_RadialController
         //{
         //    ClickToggle.IsOn = !ClickToggle.IsOn;
         //}
-        // End "Step 4: Basic RadialController menu customization"
+        // End "Step 4: Customize the basic RadialController menu"
 
         // Add or remove the custom tool.
         private void AddRemoveItem(object sender, RoutedEventArgs args)
