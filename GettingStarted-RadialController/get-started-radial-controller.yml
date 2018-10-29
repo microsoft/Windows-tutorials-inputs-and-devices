@@ -1,0 +1,11 @@
+### YamlMime:Sample
+sample:
+- name: Get Started Tutorial: Support the Surface Dial (and other wheel devices) in your UWP app
+  description: The complete sample code for "Get Started Tutorial: Support the Surface Dial (and other wheel devices) in your UWP app".
+  generateZip: true
+  author: Karl-Bridge-Microsoft
+  languages:
+  - csharp
+  technologies:
+  - windows
+  vssolution: GettingStarted-RadialController.sln
