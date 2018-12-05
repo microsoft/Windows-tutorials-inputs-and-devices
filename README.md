@@ -1,3 +1,14 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- uwp
+statusNotificationTargets:
+- codefirst
+---
+
 # Windows Tutorials for Inputs and Devices - Sample Code
 
 This is the code sample repository for **Inputs and devices** tutorials on [Windows Dev Center](https://developer.microsoft.com/en-us/windows), including:
