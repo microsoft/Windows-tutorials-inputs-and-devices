@@ -1,3 +1,14 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- uwp
+statusNotificationTargets:
+- codefirst
+---
+
 # Get Started Tutorial: Support ink in your UWP app
 
 This is the complete sample code for the [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough) on [Windows Dev Center](https://developer.microsoft.com/en-us/windows).
