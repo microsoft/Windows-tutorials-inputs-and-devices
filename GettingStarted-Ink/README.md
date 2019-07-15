@@ -1,12 +1,13 @@
 ---
-topic: sample
+page_type: sample
 languages:
 - csharp
 products:
 - windows
 - windows-uwp
 statusNotificationTargets:
-- codefirst
+- codefirst@microsoft.com
+description: "With Windows Ink, you can provide your customers with the digital equivalent of almost any pen and paper experience imaginable."
 ---
 
 # Get Started Tutorial: Support ink in your UWP app
