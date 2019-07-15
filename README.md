@@ -1,6 +1,6 @@
 # Windows Tutorials for Inputs and Devices - Sample Code
 
-This is the code sample repository for **Inputs and devices** tutorials on [Windows Dev Center](https://developer.microsoft.com/en-us/windows), including:
+This is the code sample repository for **Inputs and devices** tutorials on [Windows Dev Center](https://developer.microsoft.com/windows), including:
 
  - [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough)
  - [Get Started Tutorial: Support the Surface Dial (and other wheel devices) in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/radialcontroller-walkthrough)
