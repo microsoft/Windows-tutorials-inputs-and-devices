@@ -19,6 +19,7 @@ With Windows Ink, you can provide your customers with the digital equivalent of 
 In this topic, we step through how to create a basic UWP app that supports writing and drawing with Windows Ink. 
 
 We focus on the following:
+
 * Adding basic ink support
 * Adding an ink toolbar
 * Supporting handwriting recognition
