@@ -8,6 +8,7 @@ products:
 statusNotificationTargets:
 - codefirst@microsoft.com
 description: "With Windows Ink, you can provide your customers with the digital equivalent of almost any pen and paper experience imaginable."
+urlFragment: get-started-tutorial-ink
 ---
 
 # Get Started Tutorial: Support ink in your UWP app
