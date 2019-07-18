@@ -8,6 +8,7 @@ products:
 statusNotificationTargets:
 - codefirst@microsoft.com
 description: "The Surface Dial is a secondary input device that helps users to be more productive when using a primary input device."
+urlFragment: get-started-support-surface-dial
 ---
 
 # Get Started Tutorial: Support the Surface Dial (and other wheel devices) in your UWP app
